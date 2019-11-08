@@ -4,5 +4,6 @@ import Example from './Example'
 import Example2 from './Example2'
 import Example3 from './Example3'
 import Example4 from './example4/Example4'
+import Example5 from './Example5'
 
-ReactDOM.render(<Example4 />, document.getElementById('root'));
+ReactDOM.render(<Example5 />, document.getElementById('root'));

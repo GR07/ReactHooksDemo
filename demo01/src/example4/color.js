@@ -3,7 +3,7 @@ import React, { createContext, useReducer } from 'react';
 const ColorContext = createContext({})
 
 // 更改颜色方法的常量名
-export const UPDATE_COLOR = "UPDATE_COLOR"
+const UPDATE_COLOR = "UPDATE_COLOR"
 
 const reducer= (state,action)=>{
     switch(action.type){
@@ -28,5 +28,6 @@ const Color = (props) => {
 }
 export {
   ColorContext,
-  Color
+  Color,
+  UPDATE_COLOR
 }
